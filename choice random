@@ -1,0 +1,11 @@
+import random
+
+names_string = input("Give me everybody's names, separated by a comma. ")
+names = names_string.split(", ")
+
+
+#comvert into length
+names_length = len(names)
+
+for i in range(name_length):
+  random.choice(names)
